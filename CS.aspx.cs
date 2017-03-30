@@ -22,7 +22,7 @@ public partial class CS : System.Web.UI.Page
             using (SqlConnection con = new SqlConnection(constr))
             {
                 using (SqlCommand cmd = new SqlCommand("SELECT * FROM Users"))
-                {//ram
+                {//ramkumar
                     using (SqlDataAdapter sda = new SqlDataAdapter())
                     {
                         DataTable dt = new DataTable();
